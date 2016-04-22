@@ -1,0 +1,1 @@
+System.register(["./modules/meow","./modules/ruff"],function(e,n){"use strict";var o,t,u,s,r,c;n&&n.id;return{setters:[function(e){o=e},function(e){t=e}],execute:function(){u=function(){function e(){}return e.prototype.say=function(){console.log("hello")},e}(),s=new u,r=new o["default"],c=new t.Dog,s.say(),r.shout(),c.bark(),console.log(Vue)}}});

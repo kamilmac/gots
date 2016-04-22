@@ -1,0 +1,16 @@
+{
+    "tslint.enable": true,
+    "tslint.configFile": "./client/tslint.json",
+    "go.buildOnSave": true,
+    "go.lintOnSave": true,
+    "go.vetOnSave": true,
+    "go.formatTool": "gofmt",
+    "go.gopath": "/dev/gokamil",
+    
+    "files.watcherExclude": {
+        "**/node_modules": true
+    },
+    "files.exclude": {
+        "**/node_modules": true
+    }
+}

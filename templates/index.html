@@ -1,0 +1,13 @@
+{{define "title"}}Cubes and Squares{{end}}
+
+{{define "content"}}
+
+
+{{ if .prod }}
+<script src="./static/js/bundle.js"></script>
+{{ end }}
+<script>
+    System.import('main');
+</script>
+
+{{end}}

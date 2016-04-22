@@ -1,0 +1,8 @@
+@import "./skeleton/normalize.css";
+@import "./skeleton/skeleton.css";
+
+body, html {
+    background: #222;
+    box-sizing: border-box;
+    display: flex;
+}

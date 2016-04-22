@@ -1,0 +1,5 @@
+{
+  "ambientDependencies": {
+    "vue": "registry:dt/vue#1.0.16+20160316155526"
+  }
+}
